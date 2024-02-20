@@ -35,7 +35,7 @@ namespace ProjectAMAA.Models
         public class Actor
         {
             public string name_surname { get; set; }
-            public ActorsMovies[] ActorsMovies { get; set; }
+            public List<ActorsMovies> ActorsMovies { get; set; }
         }
 
         public class ActorsMovies

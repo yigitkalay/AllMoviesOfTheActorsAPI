@@ -16,7 +16,7 @@ namespace ProjectAMAA
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "AMAA", action = "GetActorsMovies", id = UrlParameter.Optional }
+                defaults: new { controller = "AMAA", action = "GetMovieAndActors", id = UrlParameter.Optional }
             );
         }
     }
